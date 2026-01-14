@@ -1,16 +1,26 @@
-# app_bar_01
+# 📱 Basic AppBar Implementation
 
-A new Flutter project.
+A clean and standard implementation of the **Material Design AppBar** in Flutter. This project demonstrates the fundamental structure of a top app bar, including navigation controls, titles, and action buttons.
 
-## Getting Started
+## 🌟 Features
+* **Leading Widget:** Custom `IconButton` (Menu) for navigation drawer triggers.
+* **Title Alignment:** Centered title for a symmetrical, modern look (`centerTitle: true`).
+* **Action Buttons:** Integrated Share and Profile icons in the `actions` array.
+* **Styling:** Custom background color (`Colors.blue[400]`) with `elevation: 0` for a flat, clean UI design.
 
-This project is a starting point for a Flutter application.
+## 🛠️ Tech Stack
+* **Framework:** Flutter
+* **Language:** Dart
+* **Widgets Used:** `Scaffold`, `AppBar`, `IconButton`, `Icon`, `Text`.
 
-A few resources to get you started if this is your first Flutter project:
+## 🧠 Logic & Learning
+This component explores the `Scaffold` widget's API, specifically how the `appBar` property manages layout constraints automatically (handling status bar height and safe areas).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 👨‍💻 Author
+Aspiring Flutter Developer turning logic into pixel-perfect apps.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* 🔗 **LinkedIn:** [https://www.linkedin.com/in/mayur-kariya] 
+* 🔗 **GitHub:** [https://github.com/mayur6164]
+
+---
+*Part of my "Flutter Journey 2026" - Documenting my path to becoming a Pro Developer.*
