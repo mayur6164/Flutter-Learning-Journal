@@ -34,7 +34,6 @@ class MyApp extends StatelessWidget {
               // Maximum height
               flexibleSpace: LayoutBuilder(
                 builder: (context, constraints) {
-                  print("Abhi Height hai: ${constraints.biggest.height}");
                   var top = constraints.biggest.height;
                   bool isCollapsed = top < 110;
 
