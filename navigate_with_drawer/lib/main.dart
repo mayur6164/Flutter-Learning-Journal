@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:navigate_with_drawer/dashbaord_page.dart';
 import 'package:navigate_with_drawer/my_app_drawer.dart';
+import 'package:navigate_with_drawer/profile_page.dart';
+import 'package:navigate_with_drawer/settings_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,11 +38,10 @@ class _HomePageState extends State<HomePage> {
   ];
 
   final List<Widget> _pages = [
-    Center(child: Text('Home Page',style: TextStyle(fontSize: 50),)),
-    Center(child: Text('Home Page',style: TextStyle(fontSize: 50),)),
-    Center(child: Text('Person Page',style: TextStyle(fontSize: 50),)),
-    Center(child: Text('Settings Page',style: TextStyle(fontSize: 50),)),
-    Center(child: Text('Logout Page',style: TextStyle(fontSize: 50),)),
+    DashboardPage(),
+    ProfilePage(),
+    SettingsPage(),
+    Center(child: CircularProgressIndicator(),)
   ];
 
   @override

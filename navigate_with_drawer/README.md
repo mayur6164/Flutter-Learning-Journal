@@ -1,16 +1,65 @@
-# navigate_with_drawer
+# Navigate With Drawer 📱
 
-A new Flutter project.
+A professional Flutter application demonstrating **Clean Architecture**, **Modular Navigation**, and **Advanced State Management**.
 
-## Getting Started
+This project was built to master the `Drawer` widget and Single Page Application (SPA) flow in Flutter.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📂 Source Code Location
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Note:** This project is part of my larger Flutter journey.
+You can find the source code for this specific app inside the **`navigate_with_drawer`** folder of this repository.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* **Repository:** [Flutter-Learning-Journal](https://github.com/mayur6164/Flutter-Learning-Journal)
+* **Path:** `Flutter-Learning-Journal / navigate_with_drawer`
+
+---
+
+## 🚀 Features
+
+* **Modular Architecture:** Separated `Drawer` logic from `HomePage` for reusable and clean code.
+* **Dynamic Navigation:** Implemented a "Single Page" structure using indexed stacks (switching bodies without pushing new routes).
+* **Professional UI:**
+    * 📊 **Dashboard:** Custom GridView with statistics cards.
+    * 👤 **Profile:** Clean layout with circular avatar and details.
+    * ⚙️ **Settings:** Interactive toggles (Switches) and list options.
+* **State Management:** Efficient use of `setState` to handle UI updates instantly across widgets.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Framework:** Flutter
+* **Language:** Dart
+* **UI System:** Material Design 3
+
+---
+
+## 👨‍💻 Connect with Me
+
+I am a BCA Student and Flutter Developer passionate about building clean, scalable mobile applications.
+
+* **LinkedIn:** [Mayur Kariya](https://www.linkedin.com/in/mayur-kariya)
+* **GitHub:** [mayur6164](https://github.com/mayur6164)
+
+---
+
+## 📥 How to Run
+
+1.  Clone the repository:
+    ```bash
+    git clone [https://github.com/mayur6164/Flutter-Learning-Journal.git](https://github.com/mayur6164/Flutter-Learning-Journal.git)
+    ```
+2.  Navigate to the project folder:
+    ```bash
+    cd navigate_with_drawer
+    ```
+3.  Install dependencies:
+    ```bash
+    flutter pub get
+    ```
+4.  Run the app:
+    ```bash
+    flutter run
+    ```

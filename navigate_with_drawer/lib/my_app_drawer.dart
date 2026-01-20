@@ -79,7 +79,6 @@ class MyAppDrawer extends StatelessWidget {
           ),
         ],
       ),
-      // We will build this out next
     );
   }
 }
